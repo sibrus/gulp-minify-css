@@ -1,7 +1,7 @@
 {
   "name": "gulp-minify-css",
   "description": "Minify css with clean-css.",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "repository": "murphydanger/gulp-minify-css",
   "author": "Jonathan Pollack <jonathan@gnobel.com> (gnobel.com)",
   "contributors": [
@@ -32,8 +32,7 @@
     "gulp-util": "^3.0.5",
     "object-assign": "^4.0.1",
     "readable-stream": "^2.0.0",
-    "vinyl-bufferstream": "^1.0.1",
-    "vinyl-sourcemaps-apply": "^0.1.4"
+    "vinyl-bufferstream": "^1.0.1"
   },
   "devDependencies": {
     "@shinnn/eslintrc-node": "^1.0.2",

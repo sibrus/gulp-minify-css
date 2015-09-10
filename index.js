@@ -2,7 +2,6 @@
 
 var path = require('path');
 
-var applySourceMap = require('vinyl-sourcemaps-apply');
 var CleanCSS = require('clean-css');
 var objectAssign = require('object-assign');
 var PluginError = require('gulp-util').PluginError;
@@ -52,8 +51,6 @@ module.exports = function gulpMinifyCSS(options) {
 
               return path.relative(file.base, src);
             });
-
-            applySourceMap(file, map);
           }
 
           done(null, new Buffer(css.styles));
